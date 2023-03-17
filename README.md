@@ -1,7 +1,7 @@
 # [happybabies.club](https://www.happybabies.club/) - Happy babies club landing page
 
 
-![App Landing Page](https://www.tailwindtoolbox.com/templates/app-landing.png)
+![Imgur](https://i.imgur.com/RJcA1t5.png)
 
 
 ## Getting Started
