@@ -10,8 +10,9 @@
 	<meta name="keywords" content="">
 	
         <link rel="stylesheet" href="https://unpkg.com/tailwindcss@2.2.19/dist/tailwind.min.css"/>
-	<link href="https://fonts.googleapis.com/css?family=lato+Sans+Pro:400,700" rel="stylesheet">
-
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Lato&family=Oooh+Baby&display=swap" rel="stylesheet">
 	<style>
 
 		.slide-in-bottom{-webkit-animation:slide-in-bottom .5s cubic-bezier(.25,.46,.45,.94) both;animation:slide-in-bottom .5s cubic-bezier(.25,.46,.45,.94) both}
@@ -30,6 +31,17 @@
 																	top: 60%;
 																	left: 80%;
 																}
+																.fnt {
+																	font-family: 'Oooh Baby', cursive;
+																	color: #B7D219;
+																}
+
+															.ttx {
+																font-family: 'Lato', sans-serif;
+															}
+															.avbtxt {
+																color: #CBCBF8
+															}
 	</style>
 
 
@@ -69,11 +81,11 @@
 	<div class="container pt-24 md:pt-48 px-6 mx-auto flex flex-wrap flex-col md:flex-row items-center">
 		
 		<div class="flex flex-col w-full xl:w-2/5 justify-center lg:items-start overflow-y-hidden">
-			<h1 class="my-8 text-3xl md:text-6xl font-bold leading-tight text-center md:text-left slide-in-bottom-h1">Sweet Dreams for Your Little Ones</h1>
-			<p class="leading-normal text-base md:text-l mb-14 text-center md:text-left slide-in-bottom-subtitle">Get ready for even more peaceful nights with our upcoming white noise app, exclusively from the Happy Babies Club! Soon you'll be able to customize a soothing soundscape for your little one, helping them drift off into sweet dreams. Stay tuned for more details and get ready to experience the ultimate sleep solution for your baby.</p>
+			<h1 class="my-8 text-3xl md:text-7xl font-bold leading-tight text-center md:text-left slide-in-bottom-h1 fnt">Sweet Dreams for Your Little Ones</h1>
+			<p class="leading-normal text-base md:text-l mb-14 text-center md:text-left slide-in-bottom-subtitle ttx">Soon you'll be able to customize a soothing soundscape for your little one, helping them drift off into sweet dreams. Stay tuned for more details and get ready to experience the ultimate sleep solution for your baby.</p>
 
-			<p class="leading-normal text-base md:text-s text-center md:text-left slide-in-bottom-subtitle">The Happy Babies Club.</p>
-			<p class="text-blue-400 font-bold pb-8 lg:pb-6 text-center md:text-left fade-in">Available soon on:</p>
+			<p class="leading-normal text-base md:text-s text-center md:text-left  slide-in-bottom-subtitle ttx">The Happy Babies Club.</p>
+			<p class="font-bold pb-8 lg:pb-4 text-center md:text-left fade-in  ttx">Available soon on:</p>
 			<div class="flex w-full justify-center md:justify-start pb-24 lg:pb-0 fade-in">
 				<img src="App Store.svg" class="h-12 pr-4 bounce-top-icons">
 				<img src="Play Store.svg" class="h-12 bounce-top-icons">
@@ -82,12 +94,11 @@
 		</div>
 		
 		<div class="w-full xl:w-3/5 py-6 overflow-y-hidden relative">
-			<img class="w-5/6 mx-auto lg:mr-0 slide-in-bottom" src="sleeping.png">
-			<img class="lg:mr-0 slide-in-bottom iphone" src="iphone.svg">
+			<img class="w-5/6 mx-auto lg:mr-0 slide-in-bottom" src="babysleeping.svg">
 		</div>
 		
 		<div class="w-full pt-16 pb-6 text-sm text-center md:text-left fade-in">
-			<a class="text-gray-500 no-underline hover:no-underline" href="#">&copy; happybabies.club 2023</a>
+			<a class="text-gray-500 no-underline hover:no-underline ttx" href="#">&copy; happybabies.club 2023</a>
 		</div>
 	</div>
 </div>
